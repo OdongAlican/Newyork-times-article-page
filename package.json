@@ -1,0 +1,24 @@
+{
+  "name": "Newyork-times-article-page",
+  "version": "1.0.0",
+  "description": "> This project consists of building an HTML document that matches the appearance of Newyork times article page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OdongAlican/Newyork-times-article-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OdongAlican/Newyork-times-article-page/issues"
+  },
+  "homepage": "https://github.com/OdongAlican/Newyork-times-article-page#readme",
+  "devDependencies": {
+    "stylelint": "^13.2.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
