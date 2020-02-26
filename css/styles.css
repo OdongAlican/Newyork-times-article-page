@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .wrapper {
   border: 2px solid red;
 }
@@ -12,26 +17,70 @@
   border: 2px solid blue;
   height: 10vh;
   display: flex;
+  align-items: center;
+}
+.nav1{
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  align-items: center;
+}
+.svg{
+  width: 26%;
+  /* background: red; */
+  margin: auto;
+  height: 25px;
+}
+.space-cosmos{
+  font-size: 14.25px;
+  font-weight: 700;
+  font-family: 'nyt-franklin', helvetica, Arial, sans-serif;
 }
 
 .nav1 {
   height: 30px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 30%;
 }
 
 .nav-logo {
   height: 30px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 30%;
   margin-left: 5%;
+  flex: 3;
 }
 
 .nav-btn {
   height: 30px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 30%;
   margin-left: 5%;
+  display: flex;
+  justify-content: right;
+  flex: 1;
+}
+.btn{
+background: #326891;
+color: white;
+border: none;
+border-radius: 3px;
+font-size: 11px;
+padding: 11px 12px 8px;
+
+
+
+}
+.nav-btn1{
+
+  width: 120px;
+  height: 32px;
+}
+.nav-btn2{
+  width: 64px;
+  height: 32px;
+  margin-right:20px;
+  margin-left:10px;
 }
 
 .editors-pic {
