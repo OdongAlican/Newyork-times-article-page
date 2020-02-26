@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -9,8 +9,8 @@
 
 .main-section {
   border: 2px solid black;
-  width: 98%;
-  margin: auto;
+  width: 100%;
+  margin-top: 120px;
 }
 
 .nav-bar {
@@ -18,23 +18,25 @@
   height: 10vh;
   display: flex;
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
-.nav1{
+.nav1 {
   display: flex;
   justify-content: space-around;
   flex: 1;
   align-items: center;
 }
-.svg{
+.svg {
   width: 26%;
   /* background: red; */
   margin: auto;
   height: 25px;
 }
-.space-cosmos{
+.space-cosmos {
   font-size: 14.25px;
   font-weight: 700;
-  font-family: 'nyt-franklin', helvetica, Arial, sans-serif;
+  font-family: "nyt-franklin", helvetica, Arial, sans-serif;
 }
 
 .nav1 {
@@ -60,27 +62,23 @@
   justify-content: right;
   flex: 1;
 }
-.btn{
-background: #326891;
-color: white;
-border: none;
-border-radius: 3px;
-font-size: 11px;
-padding: 11px 12px 8px;
-
-
-
+.btn {
+  background: #326891;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 11px;
+  padding: 11px 12px 8px;
 }
-.nav-btn1{
-
+.nav-btn1 {
   width: 120px;
   height: 32px;
 }
-.nav-btn2{
+.nav-btn2 {
   width: 64px;
   height: 32px;
-  margin-right:20px;
-  margin-left:10px;
+  margin-right: 20px;
+  margin-left: 10px;
 }
 
 .editors-pic {
@@ -92,9 +90,33 @@ padding: 11px 12px 8px;
 
 .head-section {
   border: 2px solid brown;
-  height: 200px;
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.title span {
+  display: block;
+  /*max-width: 383.777px;*/
   margin: auto;
-  width: 60%;
+  color: #121212;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-style: italic;
+  width: 50%;
+}
+
+.head-image {
+  width: 75%;
+  margin: auto;
+}
+
+.head-image img {
+  width: 100%;
 }
 
 .middle-section {
