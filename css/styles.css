@@ -1,12 +1,11 @@
-
 .wrapper {
   border: 2px solid red;
-  height: 100vh;
 }
 
 .main-section {
   border: 2px solid black;
-  height: 80vh;
+  width: 98%;
+  margin: auto;
 }
 
 .nav-bar {
@@ -33,4 +32,60 @@
   border: 2px solid green;
   width: 30%;
   margin-left: 5%;
+}
+
+.editors-pic {
+  border: 2px solid maroon;
+  height: 100%;
+  width: 30%;
+  margin-left: 5%;
+}
+
+.head-section {
+  border: 2px solid brown;
+  height: 200px;
+  margin: auto;
+  width: 60%;
+}
+
+.middle-section {
+  border: 2px solid cyan;
+  height: 600px;
+  margin: auto;
+  width: 98%;
+  display: flex;
+}
+
+.content {
+  width: 60%;
+  height: 100%;
+  border: 2px solid purple;
+}
+
+.grid-box {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  border: 2px solid violet;
+}
+
+.lower-section {
+  height: 1000px;
+  width: 40%;
+  border: 2px solid blue;
+  margin: auto;
+}
+
+.top-footer {
+  height: 300px;
+  border: 2px solid yellow;
+  width: 90%;
+  margin: auto;
+}
+
+.bottom-footer {
+  height: 100px;
+  border: 2px solid orange;
+  width: 80%;
+  margin: auto;
 }
