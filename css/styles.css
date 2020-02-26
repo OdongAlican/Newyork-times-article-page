@@ -1,0 +1,36 @@
+
+.wrapper {
+  border: 2px solid red;
+  height: 100vh;
+}
+
+.main-section {
+  border: 2px solid black;
+  height: 80vh;
+}
+
+.nav-bar {
+  border: 2px solid blue;
+  height: 10vh;
+  display: flex;
+}
+
+.nav1 {
+  height: 30px;
+  border: 2px solid green;
+  width: 30%;
+}
+
+.nav-logo {
+  height: 30px;
+  border: 2px solid green;
+  width: 30%;
+  margin-left: 5%;
+}
+
+.nav-btn {
+  height: 30px;
+  border: 2px solid green;
+  width: 30%;
+  margin-left: 5%;
+}
