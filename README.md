@@ -37,9 +37,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author2**
 
-- Github: [@alishabab](https://github.com/)
-- Twitter: [@shabab_ali](https://twitter.com/)
-- Linkedin: [Shabab Ali](https://)
+- Github: [@phillipUg](https://github.com/phillipUg)
+- Twitter: [@Phillip_Ug](https://twitter.com/Phillip_Ug)
+- Linkedin: [Phillip Musiime](https://www.linkedin.com/in/phillip-musiime-74657019a/)
 
 ## 🤝 Contributing
 
