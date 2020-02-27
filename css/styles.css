@@ -3,6 +3,12 @@
   margin: 0;
   padding: 0;
 }
+body{
+  line-height: 1;
+  font-size: 100%;
+  color: #333;
+  font-family: 'nyt-imperial', Georgia, 'Times New Roman', Times, serif;
+}
 .wrapper {
   border: 2px solid red;
 }
@@ -14,7 +20,7 @@
 }
 
 .nav-bar {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   height: 10vh;
   display: flex;
   align-items: center;
@@ -81,15 +87,9 @@
   margin-left: 10px;
 }
 
-.editors-pic {
-  border: 2px solid maroon;
-  height: 100%;
-  width: 30%;
-  margin-left: 5%;
-}
 
 .head-section {
-  border: 2px solid brown;
+  /* border: 2px solid brown; */
   width: 100%;
 }
 
@@ -120,26 +120,106 @@
 }
 
 .middle-section {
-  border: 2px solid cyan;
-  height: 600px;
+  /* border: 2px solid cyan; */
+  /* height: 600px; */
   margin: auto;
   width: 98%;
   display: flex;
+  align-items: center;
+  /* position: relative; */
 }
 
 .content {
-  width: 60%;
-  height: 100%;
-  border: 2px solid purple;
+  width: 45%;
+  margin: 0 auto;
+  /* height: 100%; */
+  /* border: 2px solid purple; */
+  line-height: 1.875rem;
+  font-size: 1.25rem;
+}
+.article-content p{
+  margin-bottom: 10px;
+}
+.article-content div{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-weight: 700;
+  line-height: 19px;
+  font-size: 15px;
+  font-family: "nyt-franklin", helvetica, Arial, sans-serif;
+  color: rgb(51, 51, 51);
+  padding: 30px;
+  
+}
+hr{
+  width: 30%;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border: 0.05px solid rgb(201, 199, 199);
+}
+a{
+  display: block;
+  text-decoration: none;
+  color: rgb(50, 104, 145);
+}
+
+.editors-pic {
+  /* border: 2px solid maroon; */
+  height: 1000px;
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  position: absolute;
+  right: 60px;
+}
+
+.editor {
+  display: flex; 
+  padding-top: 10px;
+  align-items: center;
+}
+.editor span{
+  display: block;
+  padding: 10px;
+  padding-top: 0;
+  font-weight: 500;
+  font-family: 'nyt-imperial', Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgb(51, 51, 51);
 }
 
 .grid-box {
-  width: 80%;
-  height: 400px;
+  width: 75%;
+  height: 600px;
   margin: auto;
-  border: 2px solid violet;
+  background-image: url('../assets/g1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  /* border: 2px solid violet;  */
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 20px;
+  align-items: flex-end;
+  justify-content: space-between;
 }
-
+.grid-item{
+  width: 100%;
+  /* height: 120px; */
+  /* border: 1px solid grey; */
+  margin-bottom: 20px;
+  line-height: 17px;
+  font-weight: 300;
+  font-size: 12px;
+  font-style: normal;
+  font-family: helvetica, sans-serif;
+  color: rgb(48, 47, 47);
+}
 .lower-section {
   height: 1000px;
   width: 40%;
