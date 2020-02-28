@@ -2,7 +2,8 @@
 
 > This project consists of building an HTML document that matches the appearance of Newyork times article page.
 
-![screenshot](images/)
+![screenshot]('./assets/project3.jpg')
+![screenshot]('./assets/project3-2.jpg')
 
 The purpose of this project is to clone the appearance of Newyork times article page using HTML and CSS.
 
