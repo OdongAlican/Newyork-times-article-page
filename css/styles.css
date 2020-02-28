@@ -11,7 +11,6 @@ body {
 }
 .wrapper {
   border: 2px solid white;
-
 }
 
 .main-section {
@@ -72,7 +71,8 @@ body {
   justify-content: right;
   flex: 1;
 }
-.btn {
+.btn,
+.lower-btn button {
   background: #326891;
   color: white;
   border: none;
@@ -121,12 +121,11 @@ body {
 .head-image img {
   width: 100%;
 }
-.img-caption{
+.img-caption {
   /* border: 1px solid red; */
   width: 75%;
   margin: auto;
   padding: 10px 200px 30px 0;
-
 }
 
 .middle-section {
@@ -142,16 +141,15 @@ body {
   /* border: 1px solid red; */
   width: 100%;
   height: 90px;
-  
 }
-.date{
+.date {
   width: 30%;
   /* border: 1px solid green; */
   height: 90px;
   float: left;
   line-height: 90px;
 }
-.icons{
+.icons {
   width: 69%;
   /* border: 1px solid blue; */
   height: 90px;
@@ -210,7 +208,7 @@ body {
   text-decoration: none;
   color: rgb(50, 104, 145);
 }
-.article-content a{
+.article-content a {
   color: #326891;
 }
 
@@ -230,13 +228,11 @@ body {
   display: flex;
   padding-top: 10px;
   align-items: center;
-
 }
-.editor1{
+.editor1 {
   border-top: 1px solid lightgrey;
   padding-top: 10px;
   margin-top: 10px;
-  
 }
 .editor span {
   display: block;
@@ -248,13 +244,12 @@ body {
   line-height: 17px;
   color: rgb(51, 51, 51);
 }
-.grid-title{
-  
-  border: 2px solid violet; 
+.grid-title {
+  border: 2px solid violet;
   width: 75%;
   margin: auto;
 }
-.grid-title span{
+.grid-title span {
   display: block;
   padding: 5px 30px 5px 0;
 }
@@ -284,30 +279,37 @@ body {
   font-family: helvetica, sans-serif;
   color: rgb(48, 47, 47);
 }
-.below-grid{
+.below-grid {
   width: 75%;
   margin: auto;
 }
-.below-grid hr{
+.below-grid hr {
   color: black;
   width: 7%;
   margin-bottom: 20px;
   margin-top: 30px;
 }
-.lower-icons{
-  border: 1px solid blue;
-  width: 100%;
+.lower-icons {
+  /*border: 1px solid green;*/
+  width: 45%;
   margin: auto;
-  height: 100px;
-}
-.lower-section {
-  width: 40%;
-  margin: auto;
+  margin-bottom: 70px;
 }
 
-.top-footer {
-  height: 300px;
-  width: 90%;
+.lower-icons .lower-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lower-icons .lower-btn button {
+  width: 55%;
+  height: 35px;
+  font-size: 13px;
+}
+
+.lower-section {
+  width: 40%;
   margin: auto;
 }
 
@@ -345,7 +347,6 @@ body {
   grid-template-columns: auto auto auto;
   grid-column-gap: 20px;
   grid-row-gap: 10px;
-
 }
 
 .middle-section-lower .grid-item {
@@ -406,7 +407,7 @@ body {
   width: 315px;
   padding: 17px 0px 0px;
   margin: 0px 0px 0px 30px;
-  border-top: 1px solid black
+  border-top: 1px solid black;
 }
 
 .space-astronomy {
@@ -461,7 +462,7 @@ body {
   border-top: 1px solid black;
   padding: 20px 0px;
 }
-.hr{
+.hr {
   width: 86%;
   margin-top: 1px;
   margin-bottom: 1px;
@@ -474,14 +475,14 @@ body {
   flex-direction: row;
   height: 340px;
   /* border: 2px solid yellow; */
-  width: 86%;
-  margin: auto;
+  width: 91%;
   border-bottom: 1px solid rgb(226, 221, 221);
+  margin-left: 7%;
 }
-.top-footer div{
+.top-footer div {
   width: 20%;
 }
-h3{
+h3 {
   text-transform: uppercase;
   line-height: 15px;
   height: 25px;
@@ -490,7 +491,7 @@ h3{
   font-family: "nyt-franklin", helvetica, Arial, sans-serif;
   color: rgb(51, 51, 51);
 }
-.top-footer li{
+.top-footer li {
   text-transform: capitalize;
   list-style: none;
   color: rgb(0, 0, 0);
@@ -499,23 +500,22 @@ h3{
   font-weight: 500;
   font-size: 14px;
   font-family: "nyt-franklin", helvetica, Arial, sans-serif;
-  width:200px;
+  width: 150px;
 }
 
-.bottom-footer {  
-  
+.bottom-footer {
   /* height: 100px; */
   /* border: 2px solid orange; */
   width: 80%;
   margin: auto;
   margin-bottom: 30px;
 }
-.bottom-footer ul{
+.bottom-footer ul {
   display: flex;
   flex-direction: row;
 }
 
-.bottom-footer li{
+.bottom-footer li {
   /* display: inline-flex; */
   color: rgb(102, 102, 102);
   font-family: "nyt-franklin", helvetica, Arial, sans-serif;
@@ -525,12 +525,44 @@ h3{
   list-style: none;
   margin: auto;
   padding: 10px 0;
-  
 }
-.svg-footer{
+.svg-footer {
   margin: 0;
   /* border: 1px solid red; */
   margin-left: 7%;
   margin-bottom: 20px;
   margin-top: 10px;
+}
+
+.subscribe-section {
+  border-left: 1px solid lightgray;
+  padding-left: 15px;
+}
+
+.subscribe li {
+  width: 250px;
+}
+
+.crossword {
+  display: flex;
+  width: 100%;
+}
+.crossword span {
+  font-weight: bold;
+}
+
+.home-delivery span {
+  font-weight: bold;
+  display: block;
+  margin-top: 2px;
+}
+
+.home-delivery {
+  display: flex;
+}
+
+.education-rate {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 5px;
+  width: 100px;
 }
