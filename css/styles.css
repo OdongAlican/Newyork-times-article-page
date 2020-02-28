@@ -121,6 +121,13 @@ body {
 .head-image img {
   width: 100%;
 }
+.img-caption{
+  /* border: 1px solid red; */
+  width: 75%;
+  margin: auto;
+  padding: 10px 200px 30px 0;
+
+}
 
 .middle-section {
   /* border: 2px solid cyan; */
@@ -130,6 +137,27 @@ body {
   display: flex;
   align-items: center;
   /* position: relative; */
+}
+.content-header .first {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 90px;
+  
+}
+.date{
+  width: 30%;
+  /* border: 1px solid green; */
+  height: 90px;
+  float: left;
+  line-height: 90px;
+}
+.icons{
+  width: 69%;
+  /* border: 1px solid blue; */
+  height: 90px;
+  line-height: 90px;
+  text-align: end;
+  float: right;
 }
 
 .content {
@@ -170,17 +198,20 @@ body {
   color: gray;
 }
 
-hr {
+.article-content hr {
   width: 30%;
   margin: auto;
   margin-top: 25px;
   margin-bottom: 20px;
   border: 0.05px solid rgb(201, 199, 199);
 }
-a {
+.first a {
   display: block;
   text-decoration: none;
   color: rgb(50, 104, 145);
+}
+.article-content a{
+  color: #326891;
 }
 
 .editors-pic {
@@ -199,6 +230,13 @@ a {
   display: flex;
   padding-top: 10px;
   align-items: center;
+
+}
+.editor1{
+  border-top: 1px solid lightgrey;
+  padding-top: 10px;
+  margin-top: 10px;
+  
 }
 .editor span {
   display: block;
@@ -210,7 +248,16 @@ a {
   line-height: 17px;
   color: rgb(51, 51, 51);
 }
-
+.grid-title{
+  
+  border: 2px solid violet; 
+  width: 75%;
+  margin: auto;
+}
+.grid-title span{
+  display: block;
+  padding: 5px 30px 5px 0;
+}
 .grid-box {
   width: 75%;
   height: 600px;
@@ -219,7 +266,6 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  /* border: 2px solid violet;  */
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-column-gap: 20px;
@@ -238,9 +284,24 @@ a {
   font-family: helvetica, sans-serif;
   color: rgb(48, 47, 47);
 }
+.below-grid{
+  width: 75%;
+  margin: auto;
+}
+.below-grid hr{
+  color: black;
+  width: 7%;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.lower-icons{
+  border: 1px solid blue;
+  width: 100%;
+  margin: auto;
+  height: 100px;
+}
 .lower-section {
   width: 40%;
-  /* border: 2px solid blue; */
   margin: auto;
 }
 
@@ -405,6 +466,7 @@ a {
   margin-top: 1px;
   margin-bottom: 1px;
   border-color: rgb(226, 221, 221);
+  margin: auto;
 }
 
 .top-footer {
