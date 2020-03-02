@@ -1,0 +1,635 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1;
+  font-size: 100%;
+  color: #333;
+  font-family: "nyt-imperial", Georgia, "Times New Roman", Times, serif;
+}
+
+.wrapper {
+  border: 2px solid white;
+}
+
+.main-section {
+  width: 100%;
+  margin-top: 120px;
+}
+
+h2 {
+  display: none;
+}
+
+.nav-bar {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  z-index: 1;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  align-items: center;
+}
+
+.svg {
+  width: 26%;
+  margin: auto;
+  height: 25px;
+}
+
+.space-cosmos {
+  font-size: 14.25px;
+  font-weight: 700;
+  font-family: "nyt-franklin", helvetica, Arial, sans-serif;
+}
+
+.nav-logo {
+  height: 30px;
+  width: 30%;
+  margin-left: 5%;
+  flex: 3;
+}
+
+.nav-btn {
+  height: 30px;
+  width: 30%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: right;
+  flex: 1;
+}
+
+.btn,
+.lower-btn button {
+  background: #326891;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 11px 12px 8px;
+}
+
+.nav-btn1 {
+  width: 120px;
+  height: 32px;
+}
+
+.nav-btn2 {
+  width: 64px;
+  height: 32px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.head-section {
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.title span {
+  display: block;
+  margin: auto;
+  color: #121212;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-style: italic;
+  width: 50%;
+}
+
+.head-image {
+  width: 75%;
+  margin: auto;
+}
+
+.head-image img {
+  width: 100%;
+}
+
+.img-caption {
+  width: 75%;
+  margin: auto;
+  padding: 10px 200px 30px 0;
+}
+
+.img-caption span {
+  color: #666;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+
+.img-caption .span2 {
+  font-size: 13px;
+  color: rgb(136, 135, 135);
+}
+
+.middle-section {
+  margin: auto;
+  width: 98%;
+  display: flex;
+  align-items: center;
+}
+
+.content-header .first {
+  width: 100%;
+  height: 90px;
+}
+
+.date {
+  width: 30%;
+  height: 90px;
+  float: left;
+  line-height: 90px;
+  color: #333;
+  font-size: 13px;
+  font-family: "nyt-franklin", helvetica, Arial, sans-serif;
+}
+
+.icons {
+  width: 69%;
+  height: 90px;
+  line-height: 90px;
+  text-align: end;
+  float: right;
+}
+
+.content {
+  width: 45%;
+  margin: 0 auto;
+  line-height: 1.875rem;
+  font-size: 1.25rem;
+}
+
+.article-content p {
+  margin-bottom: 10px;
+}
+
+.quote-span {
+  display: block;
+}
+
+.article-content div {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-weight: 700;
+  line-height: 19px;
+  font-size: 15px;
+  font-family: "nyt-franklin", helvetica, Arial, sans-serif;
+  color: rgb(51, 51, 51);
+}
+
+.article-content .southpole {
+  width: 100%;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.article-content .southpole img {
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+  height: 315px;
+  border: none;
+  margin-top: 20px;
+}
+
+.video-iframe {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.video-iframe,
+.southpole span {
+  font-size: 12px;
+  color: gray;
+}
+
+.first a {
+  text-decoration: none;
+  color: rgb(50, 104, 145);
+}
+
+.article-content a {
+  color: #326891;
+}
+
+.content-span {
+  font-family: "nyt-franklin", helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #333;
+}
+
+.editors-pic {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  right: 60px;
+}
+
+.editor {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+}
+
+.editor1 {
+  border-top: 1px solid lightgrey;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.editor span {
+  display: block;
+  padding: 10px;
+  padding-top: 0;
+  font-weight: 500;
+  font-family: "nyt-imperial", Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgb(51, 51, 51);
+}
+
+.grid-title {
+  width: 75%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.grid-title span {
+  display: block;
+  padding: 5px 30px 5px 0;
+}
+
+.theory-span1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: #000;
+}
+
+.theory-span2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  color: #666;
+}
+
+.grid-box {
+  /* border: 1px solid red; */
+  width: 75%;
+  height: 600px;
+  margin: auto;
+  background-image: url("../assets/g1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.grid-item {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 40%;
+  margin-bottom: 20px;
+  line-height: 17px;
+  font-weight: 300;
+  font-size: 12px;
+  font-style: normal;
+  font-family: helvetica, sans-serif;
+  color: rgb(48, 47, 47);
+}
+
+.below-grid {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.below-grid hr {
+  color: black;
+  width: 7%;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.below-grid span {
+  font-family: "nyt-franklin", helvetica, Arial, sans-serif;
+  color: #333;
+  font-size: 13px;
+}
+
+.lower-icons {
+  width: 45%;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.lower-icons span {
+  font-family: "nyt-franklin", helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  width: calc(100% - 40px);
+  max-width: 600px;
+  color: rgb(102, 102, 102);
+}
+
+.lower-icons .lower-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.lower-icons .lower-btn button {
+  width: 55%;
+  height: 35px;
+  font-size: 13px;
+}
+
+.lower-icons a {
+  color: rgb(102, 102, 102);
+}
+
+.lower-section {
+  width: 40%;
+  margin: auto;
+}
+
+.middle-section-lower {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  padding-left: 7%;
+  padding-right: 3%;
+}
+
+.middle-section-lower .content-lower {
+  width: 852px;
+}
+
+.popular span {
+  color: #121212;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.home-delivery span {
+  font-weight: bold;
+  display: block;
+  margin-top: 2px;
+}
+
+.middle-section-lower .content-lower span {
+  /* padding: 17px 0px 0px 17px; */
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.grid-item .date-section span {
+  font-family: "nyt-franklin", helvetica, Arial, sans-serif;
+  color: #999;
+  font-size: 12px;
+}
+
+.grid-item .title-section span {
+  color: #121212;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.grid-item .author-section span {
+  font-size: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #999;
+}
+
+.popular span:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.middle-section-lower .space-astronomy span:hover {
+  text-decoration: underline;
+}
+
+.middle-section-lower .content-lower .article-images {
+  width: 100%;
+  padding-top: 15px;
+  height: 687.75px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+}
+
+.middle-section-lower .grid-item {
+  width: 100%;
+  height: 280px;
+}
+
+.grid-item .image-section {
+  width: 100%;
+  height: 181.75px;
+}
+
+.grid-item .image-section img {
+  width: 100%;
+  height: 181.75px;
+}
+
+.grid-item .author-section {
+  width: 100%;
+  margin-top: 3px;
+  padding-bottom: 4px;
+  text-align: right;
+}
+
+.grid-item .title-section {
+  width: 100%;
+}
+
+.grid-item .title-section span:hover {
+  color: gray;
+}
+
+.grid-item .date-section {
+  width: 100%;
+  height: 15px;
+}
+
+.middle-section-lower .editors-pic-lower {
+  height: 100%;
+  width: 315px;
+  padding-top: 17px;
+  margin-left: 30px;
+  border-top: 1px solid black;
+}
+
+.space-astronomy {
+  width: 100%;
+  border-top: 1px solid black;
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+
+.most-popular {
+  width: 100%;
+  height: 39px;
+  font-family: "nyt-franklin", helvetica, Arial, sans-serif;
+  color: #333;
+  font-weight: bold;
+}
+
+.popular {
+  width: 100%;
+  height: 70px;
+  padding-top: 15px;
+  border-top: 1px solid lightgray;
+}
+
+.lower-grid-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 20px;
+}
+
+.lower-grid-section .grid-item {
+  width: 100%;
+}
+
+.editors-picks {
+  width: 100%;
+  border-top: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hrs {
+  width: 86%;
+  margin: auto;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border-color: rgba(206, 205, 205, 0.356);
+}
+
+.article-content hr {
+  width: 30%;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+.top-footer {
+  display: flex;
+  flex-direction: row;
+  height: 340px;
+  width: 91%;
+  border-bottom: 1px solid rgb(226, 221, 221);
+  margin-left: 7%;
+}
+
+.top-footer div {
+  width: 20%;
+}
+
+h3 {
+  text-transform: uppercase;
+  line-height: 15px;
+  height: 25px;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: "nyt-franklin", helvetica, Arial, sans-serif;
+  color: rgb(51, 51, 51);
+}
+
+.top-footer li {
+  text-transform: capitalize;
+  list-style: none;
+  color: rgb(0, 0, 0);
+  line-height: 16px;
+  height: 23px;
+  font-weight: 500;
+  font-size: 13px;
+  font-family: "nyt-franklin", helvetica, Arial, sans-serif;
+  width: 150px;
+}
+
+.bottom-footer {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.bottom-footer ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-footer li {
+  color: rgb(102, 102, 102);
+  font-family: "nyt-franklin", helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 20px;
+  list-style: none;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.svg-footer {
+  margin: 0;
+  margin-left: 7%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.subscribe-section {
+  border-left: 1px solid lightgray;
+  padding-left: 15px;
+}
+
+.subscribe li {
+  width: 250px;
+}
+
+.home-delivery {
+  display: flex;
+}
+
+.education-rate {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 5px;
+  width: 100px;
+}
