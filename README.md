@@ -17,7 +17,7 @@ The purpose of this project is to clone the appearance of Newyork times article 
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/OdongAlican/Newyork-times-article-page/)
+[Live Demo Link](https://raw.githack.com/OdongAlican/Newyork-times-article-page/master/)
 
 ## Getting Started
 
