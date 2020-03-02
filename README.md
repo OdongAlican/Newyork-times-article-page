@@ -1,9 +1,12 @@
 # Positioning and floating [Collaborative project]
 
 > This project consists of building an HTML document that matches the appearance of Newyork times article page.
+<br>
+<br>
+<img src="assets/project3.jpg" width="400"> 
+<img src="assets/project3-2.jpg" width="400">
+<br>
 
-![screenshot]('./assets/project3.jpg')
-![screenshot]('./assets/project3-2.jpg')
 
 The purpose of this project is to clone the appearance of Newyork times article page using HTML and CSS.
 
